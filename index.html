@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="stylesheet" href="/assets/fonts/hyundai-sans/stylesheet.css">
     <link rel="stylesheet" href="/assets/fonts/Raleway/stylesheet.css">
+    <link rel="stylesheet" href="./assets/lib/swiper-11.1.1/package/swiper-bundle.min.css">
 </head>
 <body>
 
@@ -43,12 +44,65 @@
     </header>
 
     <main id="main">
+
+        <!-- Start: Slider section -->
+        <div class="slider">
+                <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                    <div class="swiper-slide"><img src="./assets/imgs/slider/winner-cbr.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/imgs/slider/air-blade.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/imgs/slider/vario.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/imgs/slider/sh.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/imgs/slider/lead.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/imgs/slider/cbr.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/imgs/slider/blade.jpg" alt=""></div>
+
+                </div>
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+            </div>
+
+        </div>
+        <!-- End: Slider section -->
+
         
+
     </main>
 
     <footer id="footer">
 
     </footer>
+
+    <script src="./assets/lib/swiper-11.1.1/package/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
 
 </body>
 </html>
