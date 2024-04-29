@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+#logo img {
+    max-height: 70px;
+}
+
+.header-wrapper {
+    margin-top: 10px;
+}
+
+#masthead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header-inner {
+    padding: 0px 15px;
+}
+
+.header-item {
+    display: inline-block;
+}
+
+.header-item a, a:visited {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.75em;
+    color: #002c5f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header-item a:hover {
+    color: red;
+}
+
+/* #store-name {
+    position: absolute;
+    right: 0;
+} */
+
+/* #wide-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+/* #header-nav {
+    display: flex;
+    justify-content: space-between;
+} */
+
+#wide-nav {
+    background-color: #e5091c;
+    height: 45px;
+}
+
+#header-nav{
+    color: red;
+    display: flex;
+    justify-content: space-around;
+}
+
+#header-nav .header-nav-item {
+    /* margin: 0 auto; */
+    font-family: 'Raleway';
+    font-size: 14px;
+
+}
+
+#header-nav .header-nav-item a {
+    color: white;
+    line-height: 45px;
+}
+
+.header-search {
+    min-width: 30%;
+    max-width: 600px;
+}
