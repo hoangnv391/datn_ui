@@ -13,6 +13,22 @@ ul {
     list-style: none;
 }
 
+li {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
 .wrapper {
     width: 1240px;
     margin: 0 auto;
@@ -26,12 +42,15 @@ ul {
     margin-top: 10px;
 }
 
+.over-hidden {
+    overflow: hidden;
+}
+
 #masthead {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .header-inner {
@@ -116,4 +135,128 @@ ul {
 
 .slider .swiper .swiper-pagination-bullet-active {
     background-color: #fff;
+}
+
+.branch-banner {
+    padding: 50px 0;
+}
+
+.gap-element {
+    padding-top: 20px;
+}
+
+.section-title-container {
+    padding: 0 15px;
+    margin-bottom: 16px;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.section-title b {
+    flex-grow: 1;
+    background-color: #002c5f;
+    height: 2px;
+    opacity: .1;
+}
+
+.section-title-main {
+    color: #002c5f;
+    word-spacing: 0.5vw;
+    margin: 0 15px;
+}
+
+/* .branch-category {
+    padding-bottom: 15px;
+} */
+
+.branch-category-item {
+    width: 20%;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.branch-category-item img{
+    max-height: 178px;
+    /* width: auto !important; */
+    max-width: 100%;;
+    height: auto;
+    position: unset;
+    transition: transform 0.5s ease;
+}
+
+img.hover-zoom-1-2:hover {
+    transform: scale(1.2);
+}
+
+.product {
+    padding: 50px 0;
+}
+
+.product-item {
+    padding: 0 15px;
+    max-width: 25%;
+    /* over */
+}
+
+.product-item .item-image-inner {
+    /* max-width: 25%; */
+    /* object-fit: ; */
+    /* object-fit: fill; */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.5s ease;
+    padding: 15px;
+}
+
+.item-text {
+    width:  100%;
+}
+
+.product-list .product-item .item-text  .item-version {
+    padding: 8px 5px;
+    background-color: #002c5f;
+    font-size: 12px;
+    font-style: normal;
+    color: #fff;
+    border-radius: 15px;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Raleway Light';
+    padding-top: 8px;
+    width: 120px;
+}
+
+.product-list .product-item .item-text .item-version-list {
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.product-list .product-item .item-text .item-version-list .item-option {
+    margin: 0 4px;
+    margin-top: 15px;
+    border: 1px solid;
+    border-radius: 100%;
+    padding: 2px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.item-text {
+    flex-direction: column;
+    justify-content: space-between;
 }

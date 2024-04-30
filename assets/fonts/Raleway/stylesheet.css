@@ -4,3 +4,10 @@
     font-weight: 500;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Raleway Light';
+    src: url('static/Raleway-SemiBold.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
