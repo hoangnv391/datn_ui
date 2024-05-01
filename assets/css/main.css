@@ -147,7 +147,7 @@ li {
 
 .section-title-container {
     padding: 0 15px;
-    margin-bottom: 16px;
+    margin-bottom: 25px;
 }
 
 .section-title {
@@ -201,14 +201,19 @@ img.hover-zoom-1-2:hover {
 }
 
 .product-list {
-    justify-content: space-between;
-    flex-wrap: wrap;
+    /* justify-content: space-between;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 0px;
+    row-gap: 0px;
+
 }
 
 .product-item {
     margin: 0 15px 25px 15px;
-    width: 22%;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    /* width: 22%; */
+    box-shadow: rgba(100, 100, 100, 0.1) 0px 8px 24px, rgba(100, 100, 100, 0.1) 0px 16px 56px, rgba(100, 100, 100, 0.1) 0px 24px 80px;
     /* over */
     /* flex-basis: 25%; */
     display: inline-block;
