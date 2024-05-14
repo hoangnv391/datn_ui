@@ -29,9 +29,21 @@ li {
     align-items: center;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 0px;
+    row-gap: 0px;
+
+}
+
+
+
 .wrapper {
     width: 1240px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #logo img {
@@ -299,4 +311,131 @@ img.hover-zoom-1-2:hover {
     font-family: 'Hyundai Sans Head Office';
     font-weight: bold;
     margin-bottom: 5px;
+}
+
+.service-section {
+    background-color: #ebebeb;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    /* height: 500px; */
+}
+
+
+/* service-section-title {
+    padding: 0;
+} */
+
+
+
+.flex-inline-block {
+    display: inline-block;
+}
+
+.no-padding {
+    padding: 0;
+}
+.service-container {
+    grid-template-columns: auto auto auto;
+}
+
+.service-item {
+    /* width: ; */
+    padding: 15px;
+}
+
+.service-image {
+    display: inline-block;
+    /* color: #515151; */
+
+}
+
+.service-image img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+}
+
+.service-content {
+    display: inline-block;
+    padding-left: 16px;
+}
+
+.service-title-container {
+    margin-bottom: 10px;
+}
+
+.service-title {
+    text-transform: uppercase;
+    font-family: 'Raleway Bold';
+}
+
+.service-description-container {
+    color: #515151;
+}
+
+.service-description {
+    font-family: 'Raleway Semibold';
+    font-size: 14px;
+    word-spacing: 4px;
+}
+
+#footer, #footer a {
+    min-height: 330px;
+
+    background-color: rgb(1, 44, 95);
+    color: #f1f1f1;
+}
+
+.brand-information {
+    width: 50%;
+    font-family: 'Raleway Semibold';
+    font-size: 16px;
+}
+
+.brand-information .brand-logo-container img {
+    width: 100%;
+    margin: 15px 0;;
+}
+
+.brand-information .brand-title-container {
+    margin-bottom: 3px;
+    font-family: 'Raleway Bold';
+    padding-bottom: 12px;
+}
+
+.contact-container .phone-container {
+    margin-bottom: 10px;
+}
+
+.contact-container .email-container .email{
+    margin-bottom: 3px;
+}
+
+.contact-container .email-container .website {
+    margin-bottom: 10px;
+}
+
+.brand-store {
+    margin-top: 15px;
+    padding-left: 50px;
+}
+
+.system-store-container {
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.system-store-title {
+    font-family: 'Raleway Bold';
+    font-size: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px white solid;
+    margin-bottom: 15px;
+}
+
+.store {
+    font-family: 'Raleway Semibold';
+    font-size: 14px;
+    padding-bottom: 12px;
+    cursor: pointer;
 }
