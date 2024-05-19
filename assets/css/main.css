@@ -17,6 +17,8 @@ li {
     list-style: none;
 }
 
+
+
 .flex {
     display: flex;
 }
@@ -233,9 +235,6 @@ img.hover-zoom-1-2:hover {
 
 
 .product-item .item-image-inner {
-    /* max-width: 25%; */
-    /* object-fit: ; */
-    /* object-fit: fill; */
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -439,3 +438,80 @@ img.hover-zoom-1-2:hover {
     padding-bottom: 12px;
     cursor: pointer;
 }
+
+/* Start: CSS for product site */
+
+.banner-container img {
+    max-width: 100%;
+}
+
+.product-image {
+    width: 50%;
+}
+
+.product-image img {
+    max-width: 100%;
+}
+
+.product-option {
+    width: 50%;
+}
+
+.product-option .product-name {
+    color: #002c5f;
+    margin-top: 6.4px;
+}
+
+.product-option .product-name h1{
+    font-family: 'Hyundai Sans Head Office';
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.product-option .color-group {
+    padding-top: 30px;
+
+}
+
+.product-option .color-group p {
+    font-family: 'Raleway Bold';
+    font-size: 18px;
+    color: #515151;
+}
+
+.color-item-container {
+    grid-template-columns: auto auto;
+    /* justify-content: start; */
+}
+
+.color-item {
+    transform: skewX(-30deg);
+    border: 2px solid white;
+}
+
+.color-item-container .color-item .color-cell {
+    height: 25px;
+    width: 35px;
+    border: 2px solid #ebebeb;
+}
+
+.color-container {
+    margin-top: 20px;
+}
+.color-container .color-item  {
+    margin: 0 10px;
+}
+
+.color-item-container .color-container p{
+    line-height: 25px;
+    font-family: 'Raleway Semibold';
+    color: #515151;
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+.color-item {
+    cursor: pointer;
+}
+
+/* End: CSS for product site */
