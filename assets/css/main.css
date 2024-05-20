@@ -487,12 +487,13 @@ img.hover-zoom-1-2:hover {
 .color-item {
     transform: skewX(-30deg);
     border: 2px solid white;
+    width: 70px;
 }
 
 .color-item-container .color-item .color-cell {
     height: 25px;
-    width: 35px;
     border: 2px solid #ebebeb;
+    flex-grow: 1;
 }
 
 .color-container {
