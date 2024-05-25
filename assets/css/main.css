@@ -686,7 +686,7 @@ img.hover-zoom-1-2:hover {
     border-radius: 15px;
 }
 
-.cart-item-container .item-container .item-image img {
+.cart-item-container .item-container .item-image img, .cart-item-container .item-container .cart-item-image img  {
     max-height: 100px;
 }
 
